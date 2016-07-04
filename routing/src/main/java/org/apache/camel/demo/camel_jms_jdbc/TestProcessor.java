@@ -58,7 +58,8 @@ public class TestProcessor implements Processor {
     }
 
     public int getErrorAfterMsgs() {
-        return errorAfterMsgs;
+        System.out.println("test");
+    	return errorAfterMsgs;
     }
 
 

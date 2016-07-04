@@ -61,7 +61,7 @@
 
  
    <bean id="dataSource" class="org.postgresql.ds.PGPoolingDataSource" destroy-method="close">
-      <property name="serverName" value="localhost"/>
+      <property name="serverName" value="192.168.122.1"/>
       <property name="portNumber" value="5432"/>
       <property name="databaseName" value="poc"/>      
       <property name="user" value="eusk"/>
